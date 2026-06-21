@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sistema de ingreso</title>
+</head>
+<body>
+
+    <main class="container">
+            <h1>Bienvenido al sistema de ingreso</h1>
+            <p>Por favor, ingresa tus credenciales para acceder al sistema.</p>
+    
+            <form action="/login" method="POST">
+                <div>
+                <label for="username">Usuario:</label>
+                <input type="text" id="username" name="username" required>
+                </div>
+    
+            <br><div>
+                <label for="password">Contraseña:</label>
+                <input type="password" id="password" name="password" required>
+                </div>
+            </br>
+            <br>
+             <div>
+            <a href="/register">¿olvidaste tu contraseña? Recuperar aquí</a>
+            </div>
+            </br>
+            <div>
+                <button type="submit">Ingresar</button>
+            </div>
+            </form>
+
+
+
+    </main>
+
+</body>
+</html>
